@@ -1,0 +1,76 @@
+<div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header mb-2 bg-dark">
+                <h3 class="font w-100 dark-grey-text  text-center text-light" id="myModalLabel">Registration</h3>
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="text-light" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body mx-4">
+                <!--Body-->
+                <div class="md-form mb-2">
+                    <i class="fas fa-user prefix"></i>&nbsp;
+                    <label data-error="wrong" data-success="right" for="first_name" class="font"> First Name:</label>
+                    <input type="text" id="first_name" class="form-control validate">
+                </div>
+
+                <div class="md-form mb-2">
+                    <i class="fas fa-user prefix"></i>&nbsp;
+                    <label data-error="wrong" data-success="right" for="last_name" class="font"> Last Name:</label>
+                    <input type="text" id="last_name" class="form-control validate">
+                </div>
+
+                <div class="md-form pb-3">
+                    <i class="fas fa-lock prefix"></i>&nbsp;
+                    <label data-error="wrong" data-success="right" for="pass" class="font"> Password:</label>
+                    <input type="password" id="pass" class="form-control validate">
+                </div>
+
+                <div class="md-form pb-3">
+                    <i class="fas fa-lock prefix"></i>&nbsp;
+                    <label data-error="wrong" data-success="right" for="confirm_pass" class="font"> Confirm Password:</label>
+                    <input type="password" id="confirm_pass" class="form-control validate">
+                </div>
+
+                <div class="md-form pb-3">
+                    <i class="fas fa-envelope prefix"></i>&nbsp;
+                    <label data-error="wrong" data-success="right" for="email_id" class="font"> Email:</label>
+                    <input type="password" id="email_id" class="form-control validate">
+                </div>
+                
+                <div class="md-form pb-3">
+                    <i class="fas fa-mobile prefix"></i>&nbsp;
+                    <label data-error="wrong" data-success="right" for="mobile_number" class="font"> Mobile Number:</label>
+                    <input type="password" id="mobile_number" class="form-control validate">
+                </div>
+                
+                <div class="text-center mb-2">
+                    <button type="button" class="btn btn-outline-info my-2 my-sm-0  w-75 p-3 mb-5 gradient font">Register</button>
+                </div>
+                <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2 font"> or Register with:</p>
+
+                <div class="row my-3 d-flex justify-content-center">
+                    <!--Facebook-->
+                    <button type="button" class="btn btn-outline-info ml-2 my-sm-0 mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button>
+                    <!--Twitter-->
+                    <button type="button" class="btn btn-outline-info ml-2 my-sm-0 mr-md-3  z-depth-1a"><i class="fab fa-twitter"></i></button>
+                    <!--Google +-->
+                    <button type="button" class="btn btn-outline-info ml-2 my-sm-0 mr-md-3-dark z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer mx-5 pt-3 mb-1">
+                <p class="font-small grey-text d-flex justify-content-end"> <a herf="#" class="text-info ml-1 font">Already have an account? Log In</a></p>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<div class="text-center">
+    <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#elegantModalForm">Launch modal Subscription</a>
+</div>
