@@ -11,5 +11,11 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  showRegistrationModel()
+  {
+    // document.getElementById('login_model').style.visibility = "collapse";
+    // document.getElementById('registration_model').style.visibility = "visible";
+  }
 
 }
+
