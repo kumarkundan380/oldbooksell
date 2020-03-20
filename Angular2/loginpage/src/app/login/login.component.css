@@ -1,0 +1,19 @@
+.font
+{
+    font-family: 'Lora', serif;
+}
+a{
+    text-decoration: none;
+}
+.gradient
+{
+    border-radius: 30px;
+}
+img
+{
+    height: 40%;
+    width: 40%;
+}
+.modal {
+    overflow-y:auto;
+  }
