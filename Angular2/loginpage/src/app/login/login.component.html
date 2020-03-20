@@ -6,15 +6,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="font nav-link" href="#">Home</a>
+                <a class="font nav-link font btn btn-outline-info mr-sm-2" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="font nav-link" href="#">AboutUs</a>
+                <a class="nav-link font btn btn-outline-info mr-sm-2" href="#">AboutUs</a>
             </li>
             <li class="nav-item">
-                <button type="button" class="font btn btn-outline-info mr-sm-2" data-toggle="modal" data-target="#model">
-                    Login/SignUp
-                </button>
+                <a class="nav-link btn btn-outline-info mr-sm-2" data-toggle="modal" data-target="#model">Login/SignUp</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -41,15 +39,15 @@
                 <div class="modal-body mx-4">
                     <div class="md-form mb-2">
                         <i class="fas fa-user prefix"></i>&nbsp;
-                        <label data-error="wrong" data-success="right" for="Form-email1" class="font"> Username:</label>
-                        <input type="text" id="Form-email1" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="user_name" class="font"> Username:</label>
+                        <input type="email" id="user_name" class="form-control validate">
                     </div>
         
                     <div class="md-form pb-3">
                         <i class="fas fa-lock prefix"></i>&nbsp;
-                        <label data-error="wrong" data-success="right" for="Form-pass1" class="font"> Password:</label>
-                        <input type="password" id="Form-pass1" class="form-control validate">
-                        <p class="font-small d-flex justify-content-end"> <a href="#" class="text-info mt-2 font">Forgot Password?</a></p>
+                        <label data-error="wrong" data-success="right" for="password" class="font"> Password:</label>
+                        <input type="password" id="password" class="form-control validate">
+                        <p class="font-small d-flex justify-content-end"> <a class="text-info mt-2 font" data-dismiss="modal" data-toggle="modal" data-target="#forgot_password">Forgot Password?</a></p>
                     </div>
                     <div class="text-center mb-2">
                         <button type="button" class="btn btn-outline-info my-2 my-sm-0  w-75 p-3 mb-5 gradient font">LogIn</button>
@@ -145,5 +143,45 @@
             <!--/.Content-->
         </div>
     </div>
-    <!--Registration Modal end-->       
+    <!--Registration Modal end-->  
+    
+    
+    <!--Forgot Password Modal start-->
+    
+    <div class="modal fade" id="forgot_password" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+                <!--Modal Header start-->
+                <div class="modal-header mb-2 bg-dark">
+                    <h3 class="font w-100 dark-grey-text  text-center text-light" id="myModalLabel">Forgot Password</h3>
+                        
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-light" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Modal Header end-->
+
+                <!--Modal Body Started-->
+                <div class="modal-body md-form pb-3">
+                    <img src="../../assets/logo.png" alt="logo" class="rounded-circle img-fluid mx-auto d-block ">
+                    <div class="md-form mb-2">
+                        <i class="fas fa-envelope prefix"></i>&nbsp;
+                        <label data-error="wrong" data-success="right" for="email_id" class="font"> Enter Email:</label>
+                        <input type="email" id="email_id" class="form-control validate">
+                    </div>
+                </div>
+                <!--Modal Body end-->
+
+                <!--Modal footer start-->
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-outline-info my-2 my-sm-0 w-50 p-3 mb-5 gradient font" data-dismiss="modal" data-toggle="modal" data-target="#model">Submit</button>
+                </div>
+                <!--Modal footer end-->
+            </div>
+            <!--Modal content end-->
+        </div>
+    </div>
+    <!--Forgot Password Modal start--> 
 </nav>        
