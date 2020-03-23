@@ -4,9 +4,15 @@
 }
 a{
     text-decoration: none;
+    cursor: pointer;
+    
+}
+#menue_button{
+    width: 120px;
 }
 .gradient
 {
+    margin-top: 10%;
     border-radius: 30px;
 }
 img
@@ -16,4 +22,7 @@ img
 }
 .modal {
     overflow-y:auto;
-  }
+}
+#registation{
+    margin-top: 5%;
+}
