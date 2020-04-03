@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#menue_button{
+    width: 120px;
+}
+.gradient
+{
+    margin-top: 10%;
+    border-radius: 30px;
+}
+.modal {
+    overflow-y:auto;
+}
+.example-icon {
+    padding: 0 14px;
+}
+  
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
